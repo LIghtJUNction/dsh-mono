@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-%E2%89%A524-43853d?style=flat-square" alt="Node.js ≥24">
-  <img src="https://img.shields.io/badge/dsh-0.2.1--rc.2-2563eb?style=flat-square" alt="目标 dsh 0.2.1-rc.2">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748b?style=flat-square" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/Node.js-%E2%89%A524-70765a?style=flat-square&amp;labelColor=3b332b" alt="Node.js ≥24">
+  <img src="https://img.shields.io/badge/dsh-0.2.1--rc.2-ad5b3d?style=flat-square&amp;labelColor=3b332b" alt="目标 dsh 0.2.1-rc.2">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-8a7864?style=flat-square&amp;labelColor=3b332b" alt="MIT license"></a>
 </p>
 
 # dsh-mono
