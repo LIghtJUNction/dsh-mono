@@ -14,7 +14,7 @@
 
 **当前版本 `0.1.0`。** 本地检查已通过：10/10 插件，Node 24 和 26 均通过全部 43 项测试；十包分别在十个独立临时目录完成安装、真实 dsh ACTIVE 与工具注册验证，再在一个十包合装 host 中通过 model → tool → model 往返验证，CLI 和 scaffold smoke 也已通过。GitHub Release 尚未发布。首版采用独立行为实现，迁移范围见[迁移说明](docs/migration.md)。
 
-[插件列表](#plugins) · [快速开始](#quick-start) · [本地开发](#development) · [发布方式](#releases) · [pi → dsh 迁移说明](docs/migration.md) · [验收结果](docs/verification.md) · [包清单](docs/packages.json)
+[插件列表](#plugins) · [快速开始](#quick-start) · [本地开发](#development) · [发布方式](#releases) · [pi → dsh 迁移说明](docs/migration.md) · [验收结果](docs/verification.md) · [包清单](docs/packages.json) · [社区目录投稿](docs/community-submissions.md)
 
 ## Plugins
 

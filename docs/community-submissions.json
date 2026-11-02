@@ -1,0 +1,124 @@
+{
+  "repository": "imsai-sh/awesome-deepseek-harness-plugins",
+  "submittedAt": "2026-11-02T07:34:33.080Z",
+  "source": "LIghtJUNction/dsh-mono",
+  "prs": [
+    {
+      "name": "dsh-rtk-optimizer",
+      "number": 787,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/787",
+      "state": "merged",
+      "isDraft": false,
+      "headSha": "bf0b62fea9c1fafcbb4f1a98fe1f907fe62bef6a",
+      "changedFile": "catalog/plugins/lightjunction--dsh-rtk-optimizer.json",
+      "mergedAt": "2026-11-02T07:33:27Z",
+      "listedOnDefaultBranch": true
+    },
+    {
+      "name": "dsh-hashline",
+      "number": 788,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/788",
+      "state": "open",
+      "isDraft": false,
+      "headSha": "0739294a47fcaef57ad7dd4912794779d46fe7a2",
+      "changedFile": "catalog/plugins/lightjunction--dsh-hashline.json",
+      "mergedAt": null,
+      "staticReview": "passed",
+      "reviewCommentUrl": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/788#issuecomment-6571648647"
+    },
+    {
+      "name": "dsh-file-context",
+      "number": 789,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/789",
+      "state": "open",
+      "isDraft": false,
+      "headSha": "53429fa0f65ecfa54fa54dfb6776ee312869b3d9",
+      "changedFile": "catalog/plugins/lightjunction--dsh-file-context.json",
+      "mergedAt": null,
+      "staticReview": "passed",
+      "reviewCommentUrl": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/789#issuecomment-6571648477"
+    },
+    {
+      "name": "dsh-rewind",
+      "number": 790,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/790",
+      "state": "merged",
+      "isDraft": false,
+      "headSha": "72548c18d14aedd3043eeaa2f005beca34d526e8",
+      "changedFile": "catalog/plugins/lightjunction--dsh-rewind.json",
+      "mergedAt": "2026-11-02T07:33:50Z",
+      "listedOnDefaultBranch": true
+    },
+    {
+      "name": "dsh-red-green",
+      "number": 791,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/791",
+      "state": "merged",
+      "isDraft": false,
+      "headSha": "787a1e80a05b80535a8bbde9196d958d07e51a2e",
+      "changedFile": "catalog/plugins/lightjunction--dsh-red-green.json",
+      "mergedAt": "2026-11-02T07:33:53Z",
+      "listedOnDefaultBranch": true
+    },
+    {
+      "name": "dsh-compass",
+      "number": 792,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/792",
+      "state": "open",
+      "isDraft": false,
+      "headSha": "89f39922fa7cd13867d4252ab3754c22012fbbcf",
+      "changedFile": "catalog/plugins/lightjunction--dsh-compass.json",
+      "mergedAt": null,
+      "staticReview": "passed",
+      "reviewCommentUrl": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/792#issuecomment-6571650600"
+    },
+    {
+      "name": "dsh-recall",
+      "number": 793,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/793",
+      "state": "merged",
+      "isDraft": false,
+      "headSha": "5d2bcd79cba8dc7d5415246631808157dfea23a5",
+      "changedFile": "catalog/plugins/lightjunction--dsh-recall.json",
+      "mergedAt": "2026-11-02T07:34:12Z",
+      "listedOnDefaultBranch": true
+    },
+    {
+      "name": "dsh-notes",
+      "number": 794,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/794",
+      "state": "merged",
+      "isDraft": false,
+      "headSha": "f0f69eab1950b0394eefd4ef3b40d2da732ab71e",
+      "changedFile": "catalog/plugins/lightjunction--dsh-notes.json",
+      "mergedAt": "2026-11-02T07:34:05Z",
+      "listedOnDefaultBranch": true
+    },
+    {
+      "name": "dsh-dotenv",
+      "number": 795,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/795",
+      "state": "merged",
+      "isDraft": false,
+      "headSha": "96760ed369d6d8408d52633fee05667a2e521218",
+      "changedFile": "catalog/plugins/lightjunction--dsh-dotenv.json",
+      "mergedAt": "2026-11-02T07:34:01Z",
+      "listedOnDefaultBranch": true
+    },
+    {
+      "name": "dsh-caffeinate",
+      "number": 796,
+      "url": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/796",
+      "state": "open",
+      "isDraft": false,
+      "headSha": "5ad69d341948daaf3d494b430a56d02302b353de",
+      "changedFile": "catalog/plugins/lightjunction--dsh-caffeinate.json",
+      "mergedAt": null,
+      "staticReview": "passed",
+      "reviewCommentUrl": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins/pull/796#issuecomment-6571652496"
+    }
+  ],
+  "verifiedAt": "2026-11-02T07:36:55.200Z",
+  "mergedCount": 6,
+  "pendingCount": 4
+}
