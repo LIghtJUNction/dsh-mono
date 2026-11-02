@@ -18,6 +18,7 @@ Verified on 2026-11-02 against DeepSeek Harness `0.2.1-rc.2`. Both Node `24.22.1
 
 ## Package and host acceptance
 
+- A fresh recursive clone from GitHub at commit `33dbb0c07b0be18a0a96331177a69fa1dac049b2` fetched all ten pinned submodules. A clean `npm ci --ignore-scripts` followed by `npm run check` passed all 43 tests on Node 24.22.1.
 - Each of the ten built archives was installed in its own fresh temporary npm project and activated in the real published DSH host, with tools registered (dotenv intentionally registers no tool).
 - All ten archives were then installed together in another fresh npm project. All plugins became ACTIVE; an offline model performed an actual model → hashline_read → model round trip.
 - An isolated `DSH_HOME` installed all ten archives through `dsh plugin --profile headless add`. DSH composed every bundle in `--dump-config`, and the headless app booted successfully with `--help`. This acceptance leaves the user's real profiles unchanged.
