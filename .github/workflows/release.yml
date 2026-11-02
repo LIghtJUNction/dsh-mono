@@ -1,0 +1,41 @@
+name: Release collection
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing collection version tag to release
+        type: string
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: release-${{ inputs.tag || github.ref }}
+  cancel-in-progress: false
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+          submodules: recursive
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - name: Verify collection version
+        run: node -e 'if (process.env.RELEASE_TAG !== "v" + JSON.parse(require("fs").readFileSync("package.json")).version) process.exit(1)'
+      - run: npm run pack
+      - name: Publish collection archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$RELEASE_TAG" >/dev/null 2>&1 || gh release create "$RELEASE_TAG" --verify-tag --generate-notes
+          gh release upload "$RELEASE_TAG" .artifacts/packages/*.tgz .artifacts/packages/SHA256SUMS .artifacts/packages/catalog.json --clobber

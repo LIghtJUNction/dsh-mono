@@ -1,0 +1,55 @@
+{
+  "dshVersion": "0.2.1-rc.2",
+  "plugins": [
+    {
+      "name": "dsh-rtk-optimizer",
+      "description": "RTK command optimization for DSH",
+      "upstream": "https://github.com/MasuRii/pi-rtk-optimizer"
+    },
+    {
+      "name": "dsh-rewind",
+      "description": "Non-destructive Git checkpoints and file rewind for DSH",
+      "upstream": "https://github.com/arpagon/pi-rewind"
+    },
+    {
+      "name": "dsh-file-context",
+      "description": "Immutable file and diff context snapshots for DSH",
+      "upstream": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-file-context"
+    },
+    {
+      "name": "dsh-hashline",
+      "description": "Stale-safe hash-anchored line editing for DSH",
+      "upstream": "https://github.com/coctostan/pi-hashline-readmap"
+    },
+    {
+      "name": "dsh-red-green",
+      "description": "Evidence-driven RED GREEN REFACTOR workflow for DSH",
+      "upstream": "https://github.com/MattDevy/pi-extensions/tree/main/packages/pi-red-green"
+    },
+    {
+      "name": "dsh-compass",
+      "description": "Repository code maps and navigation for DSH",
+      "upstream": "https://github.com/MattDevy/pi-extensions/tree/main/packages/pi-compass"
+    },
+    {
+      "name": "dsh-recall",
+      "description": "Searchable project conversation excerpts for DSH",
+      "upstream": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-recall"
+    },
+    {
+      "name": "dsh-notes",
+      "description": "Revision-checked Markdown notes for DSH",
+      "upstream": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-notes"
+    },
+    {
+      "name": "dsh-dotenv",
+      "description": "Explicit dotenv loading without overwriting inherited variables",
+      "upstream": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-dotenv"
+    },
+    {
+      "name": "dsh-caffeinate",
+      "description": "Keep the computer awake while DSH agents run",
+      "upstream": "https://github.com/narumiruna/pi-extensions/tree/main/packages/pi-caffeinate"
+    }
+  ]
+}

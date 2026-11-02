@@ -1,0 +1,23 @@
+{
+  "name": "dsh-mono",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "workspaces": [
+    "plugins/*"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "npm test --workspaces",
+    "build": "npm run build --workspaces",
+    "pack": "node scripts/pack.mjs",
+    "test:cli": "node scripts/cli-smoke.mjs"
+  },
+  "devDependencies": {
+    "yaml": "2.8.1"
+  }
+}

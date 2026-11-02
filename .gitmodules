@@ -1,0 +1,30 @@
+[submodule "plugins/dsh-file-context"]
+	path = plugins/dsh-file-context
+	url = https://github.com/LIghtJUNction/dsh-file-context.git
+[submodule "plugins/dsh-compass"]
+	path = plugins/dsh-compass
+	url = https://github.com/LIghtJUNction/dsh-compass.git
+[submodule "plugins/dsh-recall"]
+	path = plugins/dsh-recall
+	url = https://github.com/LIghtJUNction/dsh-recall.git
+[submodule "plugins/dsh-red-green"]
+	path = plugins/dsh-red-green
+	url = https://github.com/LIghtJUNction/dsh-red-green.git
+[submodule "plugins/dsh-caffeinate"]
+	path = plugins/dsh-caffeinate
+	url = https://github.com/LIghtJUNction/dsh-caffeinate.git
+[submodule "plugins/dsh-notes"]
+	path = plugins/dsh-notes
+	url = https://github.com/LIghtJUNction/dsh-notes.git
+[submodule "plugins/dsh-dotenv"]
+	path = plugins/dsh-dotenv
+	url = https://github.com/LIghtJUNction/dsh-dotenv.git
+[submodule "plugins/dsh-rtk-optimizer"]
+	path = plugins/dsh-rtk-optimizer
+	url = https://github.com/LIghtJUNction/dsh-rtk-optimizer.git
+[submodule "plugins/dsh-rewind"]
+	path = plugins/dsh-rewind
+	url = https://github.com/LIghtJUNction/dsh-rewind.git
+[submodule "plugins/dsh-hashline"]
+	path = plugins/dsh-hashline
+	url = https://github.com/LIghtJUNction/dsh-hashline.git

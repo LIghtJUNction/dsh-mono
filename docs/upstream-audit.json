@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-11-02T06:48:55.078Z",
+  "sources": [
+    {
+      "repository": "MasuRii/pi-rtk-optimizer",
+      "url": "https://github.com/MasuRii/pi-rtk-optimizer",
+      "stars": 285,
+      "license": "MIT",
+      "ref": "main",
+      "commit": "d155d253cb2f1358e34e717d47a82ebccb08cb8e"
+    },
+    {
+      "repository": "arpagon/pi-rewind",
+      "url": "https://github.com/arpagon/pi-rewind",
+      "stars": 116,
+      "license": "MIT",
+      "ref": "main",
+      "commit": "91611ad87992fb7b635a41ba68f67916ff6e6ae3"
+    },
+    {
+      "repository": "coctostan/pi-hashline-readmap",
+      "url": "https://github.com/coctostan/pi-hashline-readmap",
+      "stars": 105,
+      "license": "MIT",
+      "ref": "main",
+      "commit": "38ab735dd3739e8d0e4a41e5e0e009c6fd541535"
+    },
+    {
+      "repository": "narumiruna/pi-extensions",
+      "url": "https://github.com/narumiruna/pi-extensions",
+      "stars": 754,
+      "license": "MIT",
+      "ref": "main",
+      "commit": "a0e0079303415a1eb0eb58f68538a593c58182e5"
+    },
+    {
+      "repository": "MattDevy/pi-extensions",
+      "url": "https://github.com/MattDevy/pi-extensions",
+      "stars": 156,
+      "license": "MIT",
+      "ref": "main",
+      "commit": "86cbbbb1d65eeca88ce2f820dd958301625e394c"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 268729,
+      "license": "MIT",
+      "ref": "master",
+      "commit": "ce7073d51254c26cd63b22a60835b8f948deb447"
+    }
+  ],
+  "excluded": {
+    "pi-lsp": "DSH already provides packages/lsp/{lsp,lsp-stdio,tool-lsp}",
+    "pi-github-pr": "DSH already provides experimental forge-github PR polling",
+    "pi-analytics": "DSH already provides session-stats and experimental client-ui-stats"
+  }
+}
